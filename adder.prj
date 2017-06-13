@@ -1,0 +1,5 @@
+verilog work "leddecoder.v"
+verilog work "bin2bcd.v"
+verilog work "an_gen.v"
+verilog work "adder4bits.v"
+verilog work "adder.vf"

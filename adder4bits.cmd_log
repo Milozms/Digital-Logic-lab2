@@ -1,0 +1,6 @@
+vhdtdtfi -lib work D:/Xilinx/lab2/adder4bits.v -lang verilog -prj lab2 -o adder4bits.spl -module adder4bits -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e adder4bits.spl D:/Xilinx/lab2/adder4bits.sym 
+vhdtdtfi -lib work D:/Xilinx/lab2/adder4bits.v -lang verilog -prj lab2 -o adder4bits.spl -module adder4bits -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e adder4bits.spl D:/Xilinx/lab2/adder4bits.sym 
+vhdtdtfi -lib work D:/Xilinx/lab2/adder4bits.v -lang verilog -prj lab2 -o adder4bits.spl -module adder4bits -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e adder4bits.spl D:/Xilinx/lab2/adder4bits.sym 

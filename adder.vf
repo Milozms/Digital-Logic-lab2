@@ -1,0 +1,57 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : adder.vf
+// /___/   /\     Timestamp : 05/08/2017 23:00:26
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/Xilinx/lab2/adder.vf -w D:/Xilinx/lab2/adder.sch
+//Design Name: adder
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module adder(btn0, 
+             mclk, 
+             sw, 
+             an, 
+             dp, 
+             seg);
+
+    input btn0;
+    input mclk;
+    input [7:0] sw;
+   output [3:0] an;
+   output dp;
+   output [6:0] seg;
+   
+   wire [3:0] XLXN_3;
+   wire [3:0] XLXN_4;
+   wire [4:0] XLXN_5;
+   wire [3:0] an_DUMMY;
+   
+   assign an[3:0] = an_DUMMY[3:0];
+   an_gen  XLXI_5 (.btn0(btn0), 
+                  .mclk(mclk), 
+                  .an(an_DUMMY[3:0]));
+   adder4bits  XLXI_7 (.a(sw[7:4]), 
+                      .b(sw[3:0]), 
+                      .s(XLXN_5[4:0]));
+   bin2bcd  XLXI_8 (.bin(XLXN_5[4:0]), 
+                   .ones(XLXN_3[3:0]), 
+                   .tens(XLXN_4[3:0]));
+   leddecoder  XLXI_11 (.an(an_DUMMY[3:0]), 
+                       .ones(XLXN_3[3:0]), 
+                       .tens(XLXN_4[3:0]), 
+                       .dp(dp), 
+                       .led(seg[6:0]));
+endmodule
