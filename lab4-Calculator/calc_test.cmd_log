@@ -1,0 +1,1 @@
+sch2verilog -intstyle ise -family spartan3e -tionly {} -tiext tfi -w D:/Xilinx/lab4/calc_test.sch calc_test.tfi 

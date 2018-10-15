@@ -1,0 +1,9 @@
+[Inputs]
+=ones[3:0]=
+[Outputs]
+dp
+=seg[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel leddecoder
+

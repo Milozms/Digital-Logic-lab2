@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Xilinx/lab4/a_reg.v -lang verilog -prj lab4 -o a_reg.spl -module a_reg -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e a_reg.spl D:/Xilinx/lab4/a_reg.sym 

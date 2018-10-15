@@ -1,0 +1,6 @@
+verilog isim_temp "counter163.vf"
+verilog isim_temp "clk2.vf"
+verilog isim_temp "clk1.vf"
+verilog isim_temp "sclk.vf"
+verilog isim_temp "t2.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

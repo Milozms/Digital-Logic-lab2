@@ -1,0 +1,5 @@
+verilog work "controltest.v"
+verilog work "t72.v"
+verilog work "calc_test.vf"
+verilog work "pause.vf"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

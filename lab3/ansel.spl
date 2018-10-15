@@ -1,0 +1,12 @@
+[Inputs]
+a0
+=an[3:0]=
+=a1[3:0]=
+=a2[3:0]=
+=a3[3:0]=
+[Outputs]
+=aout[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ansel
+

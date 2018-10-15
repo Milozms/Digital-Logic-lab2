@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="bin2bcd8">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-6-13T7:23:5</timestamp>
+    <attr value="bin2bcd8" name="VeriModel" />
+    <pin polarity="Input" x="64" y="63" name="bin(15:0)" />
+    <pin polarity="Output" x="320" y="63" name="thou(3:0)" />
+    <pin polarity="Output" x="320" y="127" name="hund(3:0)" />
+    <pin polarity="Output" x="320" y="191" name="tens(3:0)" />
+    <pin polarity="Output" x="320" y="255" name="ones(3:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-8" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="63" type="pin bin(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="63" type="pin thou(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="127" type="pin hund(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="191" type="pin tens(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="255" type="pin ones(3:0)" />
+        <rect width="0" x="64" y="51" height="24" />
+        <line x2="64" y1="63" y2="63" x1="64" />
+        <rect width="0" x="320" y="51" height="24" />
+        <line x2="320" y1="63" y2="63" x1="320" />
+        <rect width="0" x="320" y="115" height="24" />
+        <line x2="320" y1="127" y2="127" x1="320" />
+        <rect width="0" x="320" y="179" height="24" />
+        <line x2="320" y1="191" y2="191" x1="320" />
+        <rect width="0" x="320" y="243" height="24" />
+        <line x2="320" y1="255" y2="255" x1="320" />
+        <rect width="256" x="64" y="0" height="256" />
+    </graph>
+</symbol>

@@ -1,0 +1,317 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : test.vf
+// /___/   /\     Timestamp : 05/22/2017 19:59:25
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/Xilinx/lab3/test.vf -w D:/Xilinx/lab3/test.sch
+//Design Name: test
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module counter163_MUSER_test(A, 
+                             B, 
+                             C, 
+                             CLK, 
+                             CLR, 
+                             D, 
+                             EN, 
+                             LOAD, 
+                             QA, 
+                             QB, 
+                             QC, 
+                             QD, 
+                             RCO);
+
+    input A;
+    input B;
+    input C;
+    input CLK;
+    input CLR;
+    input D;
+    input EN;
+    input LOAD;
+   output QA;
+   output QB;
+   output QC;
+   output QD;
+   output RCO;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_64;
+   wire XLXN_65;
+   wire XLXN_67;
+   wire XLXN_68;
+   wire XLXN_76;
+   wire XLXN_106;
+   wire XLXN_107;
+   wire XLXN_108;
+   wire XLXN_111;
+   wire XLXN_113;
+   wire XLXN_134;
+   wire QA_DUMMY;
+   wire QB_DUMMY;
+   wire QC_DUMMY;
+   wire QD_DUMMY;
+   
+   assign QA = QA_DUMMY;
+   assign QB = QB_DUMMY;
+   assign QC = QC_DUMMY;
+   assign QD = QD_DUMMY;
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(CLK), 
+              .D(XLXN_1), 
+              .Q(QA_DUMMY));
+   FD #( .INIT(1'b0) ) XLXI_4 (.C(CLK), 
+              .D(XLXN_2), 
+              .Q(QB_DUMMY));
+   FD #( .INIT(1'b0) ) XLXI_5 (.C(CLK), 
+              .D(XLXN_3), 
+              .Q(QC_DUMMY));
+   FD #( .INIT(1'b0) ) XLXI_6 (.C(CLK), 
+              .D(XLXN_4), 
+              .Q(QD_DUMMY));
+   OR3  XLXI_7 (.I0(XLXN_64), 
+               .I1(XLXN_6), 
+               .I2(XLXN_5), 
+               .O(XLXN_1));
+   OR3  XLXI_8 (.I0(XLXN_65), 
+               .I1(XLXN_8), 
+               .I2(XLXN_7), 
+               .O(XLXN_2));
+   OR3  XLXI_9 (.I0(XLXN_67), 
+               .I1(XLXN_107), 
+               .I2(XLXN_106), 
+               .O(XLXN_3));
+   OR3  XLXI_10 (.I0(XLXN_68), 
+                .I1(XLXN_76), 
+                .I2(XLXN_108), 
+                .O(XLXN_4));
+   AND3  XLXI_12 (.I0(XLXN_134), 
+                 .I1(XLXN_13), 
+                 .I2(QB_DUMMY), 
+                 .O(XLXN_7));
+   AND3  XLXI_13 (.I0(XLXN_134), 
+                 .I1(XLXN_14), 
+                 .I2(QC_DUMMY), 
+                 .O(XLXN_106));
+   AND3  XLXI_14 (.I0(XLXN_134), 
+                 .I1(XLXN_15), 
+                 .I2(QD_DUMMY), 
+                 .O(XLXN_108));
+   NAND2  XLXI_28 (.I0(XLXN_111), 
+                  .I1(QA_DUMMY), 
+                  .O(XLXN_13));
+   NAND3  XLXI_30 (.I0(XLXN_111), 
+                  .I1(QA_DUMMY), 
+                  .I2(QB_DUMMY), 
+                  .O(XLXN_14));
+   NAND4  XLXI_31 (.I0(XLXN_111), 
+                  .I1(QA_DUMMY), 
+                  .I2(QB_DUMMY), 
+                  .I3(QC_DUMMY), 
+                  .O(XLXN_15));
+   AND2B1  XLXI_34 (.I0(QA_DUMMY), 
+                   .I1(XLXN_111), 
+                   .O(XLXN_6));
+   AND3B1  XLXI_36 (.I0(QB_DUMMY), 
+                   .I1(XLXN_111), 
+                   .I2(QA_DUMMY), 
+                   .O(XLXN_8));
+   AND4B1  XLXI_38 (.I0(QC_DUMMY), 
+                   .I1(XLXN_111), 
+                   .I2(QA_DUMMY), 
+                   .I3(QB_DUMMY), 
+                   .O(XLXN_107));
+   AND5B1  XLXI_41 (.I0(QD_DUMMY), 
+                   .I1(XLXN_111), 
+                   .I2(QA_DUMMY), 
+                   .I3(QB_DUMMY), 
+                   .I4(QC_DUMMY), 
+                   .O(XLXN_76));
+   AND5  XLXI_67 (.I0(EN), 
+                 .I1(QA_DUMMY), 
+                 .I2(QB_DUMMY), 
+                 .I3(QC_DUMMY), 
+                 .I4(QD_DUMMY), 
+                 .O(RCO));
+   AND2  XLXI_69 (.I0(A), 
+                 .I1(XLXN_113), 
+                 .O(XLXN_64));
+   AND2  XLXI_70 (.I0(B), 
+                 .I1(XLXN_113), 
+                 .O(XLXN_65));
+   AND2  XLXI_72 (.I0(C), 
+                 .I1(XLXN_113), 
+                 .O(XLXN_67));
+   AND2  XLXI_73 (.I0(D), 
+                 .I1(XLXN_113), 
+                 .O(XLXN_68));
+   AND3B2  XLXI_82 (.I0(CLR), 
+                   .I1(LOAD), 
+                   .I2(EN), 
+                   .O(XLXN_111));
+   AND2B1  XLXI_83 (.I0(CLR), 
+                   .I1(LOAD), 
+                   .O(XLXN_113));
+   NOR2  XLXI_84 (.I0(XLXN_113), 
+                 .I1(CLR), 
+                 .O(XLXN_134));
+   AND3B1  XLXI_86 (.I0(XLXN_111), 
+                   .I1(XLXN_134), 
+                   .I2(QA_DUMMY), 
+                   .O(XLXN_5));
+endmodule
+`timescale 1ns / 1ps
+
+module test(clkin, 
+            a0, 
+            a1, 
+            a2, 
+            a3, 
+            b0, 
+            b1, 
+            b2, 
+            b3, 
+            b4, 
+            b5);
+
+    input clkin;
+   output a0;
+   output a1;
+   output a2;
+   output a3;
+   output b0;
+   output b1;
+   output b2;
+   output b3;
+   output b4;
+   output b5;
+   
+   wire XLXN_66;
+   wire XLXN_106;
+   wire XLXN_151;
+   wire XLXN_178;
+   wire XLXN_179;
+   wire XLXN_180;
+   wire XLXN_181;
+   wire XLXN_182;
+   wire XLXN_184;
+   wire XLXN_197;
+   wire XLXN_198;
+   wire XLXN_199;
+   wire XLXN_200;
+   wire XLXN_201;
+   wire XLXN_202;
+   wire XLXN_203;
+   wire XLXN_205;
+   wire XLXN_212;
+   wire XLXN_213;
+   wire XLXN_214;
+   wire a0_DUMMY;
+   wire a3_DUMMY;
+   wire b0_DUMMY;
+   wire b1_DUMMY;
+   wire b3_DUMMY;
+   wire b4_DUMMY;
+   wire b5_DUMMY;
+   
+   assign XLXN_178 = 0;
+   assign XLXN_179 = 0;
+   assign XLXN_180 = 0;
+   assign XLXN_181 = 0;
+   assign XLXN_182 = 0;
+   assign XLXN_197 = 0;
+   assign XLXN_198 = 0;
+   assign XLXN_199 = 0;
+   assign XLXN_200 = 0;
+   assign XLXN_201 = 0;
+   assign XLXN_202 = 0;
+   assign XLXN_203 = 0;
+   assign XLXN_205 = 1;
+   assign XLXN_212 = 0;
+   assign a0 = a0_DUMMY;
+   assign a3 = a3_DUMMY;
+   assign b0 = b0_DUMMY;
+   assign b1 = b1_DUMMY;
+   assign b3 = b3_DUMMY;
+   assign b4 = b4_DUMMY;
+   assign b5 = b5_DUMMY;
+   counter163_MUSER_test  XLXI_23 (.A(XLXN_197), 
+                                  .B(XLXN_198), 
+                                  .C(XLXN_199), 
+                                  .CLK(clkin), 
+                                  .CLR(XLXN_106), 
+                                  .D(XLXN_200), 
+                                  .EN(XLXN_213), 
+                                  .LOAD(XLXN_201), 
+                                  .QA(b4_DUMMY), 
+                                  .QB(b5_DUMMY), 
+                                  .QC(), 
+                                  .QD(), 
+                                  .RCO());
+   counter163_MUSER_test  XLXI_24 (.A(XLXN_178), 
+                                  .B(XLXN_179), 
+                                  .C(XLXN_180), 
+                                  .CLK(clkin), 
+                                  .CLR(XLXN_66), 
+                                  .D(XLXN_181), 
+                                  .EN(XLXN_214), 
+                                  .LOAD(XLXN_182), 
+                                  .QA(b0_DUMMY), 
+                                  .QB(b1_DUMMY), 
+                                  .QC(b2), 
+                                  .QD(b3_DUMMY), 
+                                  .RCO(XLXN_213));
+   AND5  XLXI_43 (.I0(b5_DUMMY), 
+                 .I1(b4_DUMMY), 
+                 .I2(b3_DUMMY), 
+                 .I3(b1_DUMMY), 
+                 .I4(b0_DUMMY), 
+                 .O(XLXN_184));
+   OR2  XLXI_68 (.I0(XLXN_184), 
+                .I1(XLXN_202), 
+                .O(XLXN_66));
+   OR2  XLXI_69 (.I0(XLXN_184), 
+                .I1(XLXN_203), 
+                .O(XLXN_106));
+   counter163_MUSER_test  XLXI_102 (.A(XLXN_212), 
+                                   .B(XLXN_212), 
+                                   .C(XLXN_212), 
+                                   .CLK(clkin), 
+                                   .CLR(XLXN_151), 
+                                   .D(XLXN_212), 
+                                   .EN(XLXN_205), 
+                                   .LOAD(XLXN_212), 
+                                   .QA(a0_DUMMY), 
+                                   .QB(a1), 
+                                   .QC(a2), 
+                                   .QD(a3_DUMMY), 
+                                   .RCO());
+   OR2  XLXI_103 (.I0(XLXN_214), 
+                 .I1(XLXN_212), 
+                 .O(XLXN_151));
+   AND2  XLXI_104 (.I0(a3_DUMMY), 
+                  .I1(a0_DUMMY), 
+                  .O(XLXN_214));
+endmodule

@@ -1,0 +1,26 @@
+[Inputs]
+m0
+cnt8
+clk
+btn_m
+btn_a
+btn_e
+=m_out[15:0]=
+=m_upper[7:0]=
+=num_in[7:0]=
+=add_out[15:0]=
+[Outputs]
+ld_a
+ld_mu
+ld_ml
+shr_m
+cl_m
+counter_en
+counter_clr
+ld_result
+=add_in[7:0]=
+=result[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel calc_ctr
+

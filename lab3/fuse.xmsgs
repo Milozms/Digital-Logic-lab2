@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 5: &lt;<arg fmt="%s" index="1">a0</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="661" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 12: Non-net port <arg fmt="%s" index="1">a1</arg> cannot be of mode <arg fmt="%s" index="2">input</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="715" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 12: Port <arg fmt="%s" index="1">a4</arg> is not defined
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 18: &lt;<arg fmt="%s" index="1">aout</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 19: &lt;<arg fmt="%s" index="1">aout</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 20: &lt;<arg fmt="%s" index="1">aout</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 21: &lt;<arg fmt="%s" index="1">aout</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 22: &lt;<arg fmt="%s" index="1">aout</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"D:/Xilinx/lab3/ansel.v" Line 3: Module &lt;<arg fmt="%s" index="1">ansel</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="ansel">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-5-22T12:41:32</timestamp>
+    <attr value="ansel" name="VeriModel" />
+    <pin polarity="Input" x="0" y="416" name="a0" />
+    <pin polarity="Output" x="384" y="672" name="aout(3:0)" />
+    <pin polarity="Input" x="0" y="736" name="an(3:0)" />
+    <pin polarity="Input" x="0" y="800" name="a1(3:0)" />
+    <pin polarity="Input" x="0" y="864" name="a2(3:0)" />
+    <pin polarity="Input" x="0" y="928" name="a3(3:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-328" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="416" type="pin a0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="672" type="pin aout(3:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="736" type="pin an(3:0)" />
+        <rect width="64" x="0" y="724" height="24" />
+        <line x2="0" y1="736" y2="736" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="800" type="pin a1(3:0)" />
+        <rect width="64" x="0" y="788" height="24" />
+        <line x2="0" y1="800" y2="800" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="864" type="pin a2(3:0)" />
+        <rect width="64" x="0" y="852" height="24" />
+        <line x2="0" y1="864" y2="864" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="928" type="pin a3(3:0)" />
+        <rect width="64" x="0" y="916" height="24" />
+        <line x2="0" y1="928" y2="928" x1="64" />
+        <rect width="64" x="320" y="660" height="24" />
+        <line x2="384" y1="672" y2="672" x1="320" />
+        <line x2="0" y1="416" y2="416" x1="64" />
+        <rect width="256" x="64" y="-320" height="1280" />
+    </graph>
+</symbol>

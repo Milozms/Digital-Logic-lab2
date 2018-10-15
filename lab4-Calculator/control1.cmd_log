@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Xilinx/lab4/control1.v -lang verilog -prj lab4 -o control1.spl -module control1 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control1.spl D:/Xilinx/lab4/control1.sym 

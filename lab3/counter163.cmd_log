@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym counter163 D:/Xilinx/lab3/counter163.sch D:/Xilinx/lab3/counter163.sym 
+sch2sym -intstyle ise -family spartan3e -refsym counter163 D:/Xilinx/lab3/counter163.sch D:/Xilinx/lab3/counter163.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog counter163_drc.vf -w D:/Xilinx/lab3/counter163.sch 
+sch2sym -intstyle ise -family spartan3e -refsym counter163 D:/Xilinx/lab3/counter163.sch D:/Xilinx/lab3/counter163.sym 

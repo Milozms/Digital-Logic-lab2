@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : pause.vf
+// /___/   /\     Timestamp : 06/13/2017 16:04:09
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/Xilinx/lab4/pause.vf -w D:/Xilinx/lab4/pause.sch
+//Design Name: pause
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module pause(btn, 
+             stat);
+
+    input btn;
+   output stat;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire stat_DUMMY;
+   
+   assign stat = stat_DUMMY;
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(XLXN_2), 
+              .D(XLXN_1), 
+              .Q(stat_DUMMY));
+   INV  XLXI_3 (.I(stat_DUMMY), 
+               .O(XLXN_1));
+   INV  XLXI_4 (.I(btn), 
+               .O(XLXN_2));
+endmodule

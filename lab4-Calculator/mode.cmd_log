@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Xilinx/lab4/mode.v -lang verilog -prj lab4 -o mode.spl -module mode -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mode.spl D:/Xilinx/lab4/mode.sym 

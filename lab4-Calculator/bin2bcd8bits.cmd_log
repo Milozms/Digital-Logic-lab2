@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Xilinx/lab4/bin2bcd8bits.v -lang verilog -prj lab4 -o bin2bcd8bits.spl -module bin2bcd8bits -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bin2bcd8bits.spl D:/Xilinx/lab4/bin2bcd8bits.sym 

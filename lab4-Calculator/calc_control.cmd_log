@@ -1,0 +1,10 @@
+vhdtdtfi -lib work D:/Xilinx/lab4/calc_control.v -lang verilog -prj lab4 -o calc_control.spl -module calc_control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calc_control.spl D:/Xilinx/lab4/calc_control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/calc_control.v -lang verilog -prj lab4 -o calc_control.spl -module calc_control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calc_control.spl D:/Xilinx/lab4/calc_control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/calc_control.v -lang verilog -prj lab4 -o calc_control.spl -module calc_control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calc_control.spl D:/Xilinx/lab4/calc_control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/calc_control.v -lang verilog -prj lab4 -o calc_control.spl -module calc_control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calc_control.spl D:/Xilinx/lab4/calc_control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/calc_control.v -lang verilog -prj lab4 -o calc_control.spl -module calc_control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calc_control.spl D:/Xilinx/lab4/calc_control.sym 

@@ -1,0 +1,10 @@
+[Inputs]
+btn3
+=calc_num[3:0]=
+=sclk_num[3:0]=
+[Outputs]
+=disp_num[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel mode
+

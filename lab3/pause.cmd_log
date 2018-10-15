@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym pause D:/Xilinx/lab3/pause.sch D:/Xilinx/lab3/pause.sym 

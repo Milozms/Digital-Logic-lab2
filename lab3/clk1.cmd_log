@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym clk1 D:/Xilinx/lab3/clk1.sch D:/Xilinx/lab3/clk1.sym 

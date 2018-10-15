@@ -1,0 +1,11 @@
+[Inputs]
+=bin[15:0]=
+[Outputs]
+=thou[3:0]=
+=hund[3:0]=
+=tens[3:0]=
+=ones[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel bin2bcd8bits
+

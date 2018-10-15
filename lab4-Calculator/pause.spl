@@ -1,0 +1,9 @@
+[Inputs]
+btn_pause
+btn_clr
+[Outputs]
+stat
+[BiDir]
+[ATTRIBUTES]
+VeriModel pause
+

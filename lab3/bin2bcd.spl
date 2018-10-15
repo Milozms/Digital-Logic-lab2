@@ -1,0 +1,14 @@
+[Inputs]
+bin5
+bin4
+bin3
+bin2
+bin1
+bin0
+[Outputs]
+=tens[3:0]=
+=ones[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel bin2bcd
+

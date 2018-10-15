@@ -1,0 +1,3 @@
+verilog work "bcd2bin.v"
+verilog work "t4.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

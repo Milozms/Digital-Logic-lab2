@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">calc.vf</arg>&quot; line <arg fmt="%d" index="2">444</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">A</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_102</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">calc.vf</arg>&quot; line <arg fmt="%d" index="2">444</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">B</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_102</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">calc.vf</arg>&quot; line <arg fmt="%d" index="2">444</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">C</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_102</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">calc.vf</arg>&quot; line <arg fmt="%d" index="2">444</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">D</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_102</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">calc.vf</arg>&quot; line <arg fmt="%d" index="2">444</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">LOAD</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_102</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">m&lt;16&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">control</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">bin&lt;15:14&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">bcd</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2474" delta="old" >Clock and clock enable of register &lt;<arg fmt="%s" index="1">state</arg>&gt; are driven by the same logic. The clock enable is removed.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">bin</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">bcd</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2474" delta="old" >Clock and clock enable of register &lt;<arg fmt="%s" index="1">stat</arg>&gt; are driven by the same logic. The clock enable is removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_17/disp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">calc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_17/disp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">calc</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

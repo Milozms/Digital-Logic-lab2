@@ -1,0 +1,87 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : calc_drc.vf
+// /___/   /\     Timestamp : 06/13/2017 13:24:03
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog calc_drc.vf -w D:/Xilinx/lab4/calc.sch
+//Design Name: calc
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module calc(btn0, 
+            btn1, 
+            btn2, 
+            clk, 
+            sw, 
+            an, 
+            dp, 
+            seg);
+
+    input btn0;
+    input btn1;
+    input btn2;
+    input clk;
+    input [7:0] sw;
+   output [3:0] an;
+   output dp;
+   output [6:0] seg;
+   
+   wire [7:0] XLXN_2;
+   wire [15:0] XLXN_3;
+   wire [3:0] XLXN_11;
+   wire [3:0] XLXN_12;
+   wire [3:0] XLXN_13;
+   wire [3:0] XLXN_15;
+   wire [3:0] XLXN_16;
+   wire [3:0] an_DUMMY;
+   
+   assign an[3:0] = an_DUMMY[3:0];
+   control  XLXI_2 (.add_out(), 
+                   .btn_a(btn2), 
+                   .btn_e(btn0), 
+                   .btn_m(btn1), 
+                   .clk(clk), 
+                   .clr(), 
+                   .cnt8(), 
+                   .num_in(XLXN_2[7:0]), 
+                   .a(), 
+                   .add_in(), 
+                   .counter_clr(), 
+                   .counter_en(), 
+                   .disp(XLXN_3[15:0]), 
+                   .m(), 
+                   .state());
+   bin2bcd  XLXI_3 (.bin(XLXN_3[15:0]), 
+                   .hund(XLXN_12[3:0]), 
+                   .ones(XLXN_15[3:0]), 
+                   .tens(XLXN_13[3:0]), 
+                   .thou(XLXN_11[3:0]));
+   bcd2bin  XLXI_4 (.bcd(sw[7:0]), 
+                   .bin(XLXN_2[7:0]));
+   an_gen  XLXI_5 (.btn0(), 
+                  .mclk(clk), 
+                  .an(an_DUMMY[3:0]));
+   an_sel  XLXI_6 (.an(an_DUMMY[3:0]), 
+                  .a0(XLXN_15[3:0]), 
+                  .a1(XLXN_13[3:0]), 
+                  .a2(XLXN_12[3:0]), 
+                  .a3(XLXN_11[3:0]), 
+                  .clk(clk), 
+                  .ld(), 
+                  .aout(XLXN_16[3:0]));
+   leddecoder  XLXI_7 (.ones(XLXN_16[3:0]), 
+                      .dp(dp), 
+                      .seg(seg[6:0]));
+endmodule

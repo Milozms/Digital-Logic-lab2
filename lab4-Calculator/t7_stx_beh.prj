@@ -1,0 +1,5 @@
+verilog isim_temp "control.v"
+verilog isim_temp "t7.v"
+verilog isim_temp "calc_test.vf"
+verilog isim_temp "pause.vf"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

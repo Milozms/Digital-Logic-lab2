@@ -1,0 +1,10 @@
+vhdtdtfi -lib work D:/Xilinx/lab4/control.v -lang verilog -prj lab4 -o control.spl -module control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl D:/Xilinx/lab4/control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/control.v -lang verilog -prj lab4 -o control.spl -module control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl D:/Xilinx/lab4/control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/control.v -lang verilog -prj lab4 -o control.spl -module control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl D:/Xilinx/lab4/control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/control.v -lang verilog -prj lab4 -o control.spl -module control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl D:/Xilinx/lab4/control.sym 
+vhdtdtfi -lib work D:/Xilinx/lab4/control.v -lang verilog -prj lab4 -o control.spl -module control -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl D:/Xilinx/lab4/control.sym 

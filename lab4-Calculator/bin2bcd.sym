@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="bin2bcd">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-6-13T7:36:4</timestamp>
+    <attr value="bin2bcd" name="VeriModel" />
+    <pin polarity="Output" x="384" y="-96" name="tens(3:0)" />
+    <pin polarity="Output" x="384" y="-32" name="ones(3:0)" />
+    <pin polarity="Input" x="0" y="32" name="bin5" />
+    <pin polarity="Input" x="0" y="96" name="bin4" />
+    <pin polarity="Input" x="0" y="160" name="bin3" />
+    <pin polarity="Input" x="0" y="224" name="bin2" />
+    <pin polarity="Input" x="0" y="288" name="bin1" />
+    <pin polarity="Input" x="0" y="352" name="bin0" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-264" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-96" type="pin tens(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin ones(3:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin bin5" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin bin4" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="160" type="pin bin3" />
+        <line x2="0" y1="160" y2="160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="224" type="pin bin2" />
+        <line x2="0" y1="224" y2="224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="288" type="pin bin1" />
+        <line x2="0" y1="288" y2="288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="352" type="pin bin0" />
+        <line x2="0" y1="352" y2="352" x1="64" />
+        <rect width="64" x="320" y="-108" height="24" />
+        <line x2="384" y1="-96" y2="-96" x1="320" />
+        <rect width="64" x="320" y="-44" height="24" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+        <rect width="256" x="64" y="-256" height="640" />
+    </graph>
+</symbol>

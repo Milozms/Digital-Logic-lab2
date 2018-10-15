@@ -1,0 +1,17 @@
+[Inputs]
+upperin_c
+ld_u
+ld_l
+shr
+clr
+clk
+=upperin[7:0]=
+=lowerin[7:0]=
+[Outputs]
+flag
+=numout[15:0]=
+=upperout[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel m_reg
+

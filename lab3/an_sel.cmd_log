@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Xilinx/lab3/an_sel.v -lang verilog -prj lab3 -o an_sel.spl -module an_sel -template D:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e an_sel.spl D:/Xilinx/lab3/an_sel.sym 

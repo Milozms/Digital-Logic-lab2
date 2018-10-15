@@ -1,0 +1,16 @@
+// Verilog instantiation template created from schematic D:\Xilinx\lab4\calc_test.sch - Mon Jun 12 20:49:54 2017
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   calc_test UUT (
+		.clk(    ), 
+		.btn1(    ), 
+		.btn2(    ), 
+		.btn0(    ), 
+		.sw(    ), 
+		.btn3(    ), 
+		.result(    ), 
+		.ld_result(    )
+   );
